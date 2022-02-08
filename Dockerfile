@@ -7,7 +7,6 @@ ENV N8N_PROTOCOL=https
 ENV N8N_PORT=443
 ENV N8N_ENCRYPTION_KEY $N8N_ENCRYPTION_KEY
 ENV N8N_CUSTOM_EXTENSIONS /data/custom
-ENV DB_TYPE postgresdb
 
 # Set a custom user to not have n8n run as root
 USER root
