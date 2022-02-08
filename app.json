@@ -1,9 +1,9 @@
 {
   "name": "n8n-chatbots-heroku-deploy",
   "description": "Deploy n8n docker container to heroku",
-  "repository": "https://github.com/jpruden92/n8n-chatbots-heroku-deploy",
+  "repository": "https://github.com/forcewake/n8n-chatbots-heroku-deploy",
   "logo": "https://res.cloudinary.com/practicaldev/image/fetch/s--1omssPcC--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/2245/c4c3402e-734b-415a-8000-4ca5e795bee6.png",
-  "website": "https://jorgeprudencio.com/",
+  "website": "https://forcewake.me/",
   "keywords": ["docker", "container", "n8n"],
   "stack": "container",
   "env": {
@@ -20,10 +20,5 @@
     "APP_NAME": {
       "description": "Your app name. Must be equal to the name that you introduced in 'App name' field."
     }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ]
+  }
 }
